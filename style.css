@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;font: optional;
+    font-family: 'Segoe UI', Tahoma, Geneva, 'Segoe UI', Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.clock{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-color: lightgray;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
