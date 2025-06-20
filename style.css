@@ -9,6 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: radial-gradient(circle, #0b456b, #021c37);
 }
 .clock{
     width: 500px;
@@ -19,6 +20,7 @@ body{
      display: flex;
      justify-content: center;
      align-items: center;
+     background: radial-gradient(circle, #a76da4, #5b0566);
 
 }
 .number{
@@ -48,12 +50,19 @@ body{
     left: 50%;
     bottom: 50%;
     transform: translate(-50%) rotate(calc(var(--rotate) * 1deg));
+    transform-origin: bottom center;
 
 }
+/*.second-hand, .minute-hand, .hour-hand {
+  transform: rotate(var(--rotate));
+  transform-origin: bottom center;
+  transition: transform 0.5s ease-in-out;
+}*/
+
 .hour-hand{
     width: 12px;
     height: 130px;
-    background-color: black;
+    background-color: rgb(179, 166, 166);
 }
 .minute-hand{
     width: 12px;
@@ -62,6 +71,7 @@ body{
 }
 .second-hand{
     width:6px;
-    height: 190px;
+    height: 210px;
+    background-color: red;
     
 }
