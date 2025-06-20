@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: radial-gradient(circle, #0b456b, #021c37);
+    background-color: radial-gradient(circle, #e4e13d, #e9a642);
 }
 .clock{
     width: 500px;
@@ -40,7 +40,7 @@ body{
     position: absolute;
     width: 25px;
     height: 25px;
-    background-color:gray ;
+    background-color:rgb(10, 10, 10) ;
     border-radius: 50%;
 
 }
@@ -53,12 +53,6 @@ body{
     transform-origin: bottom center;
 
 }
-/*.second-hand, .minute-hand, .hour-hand {
-  transform: rotate(var(--rotate));
-  transform-origin: bottom center;
-  transition: transform 0.5s ease-in-out;
-}*/
-
 .hour-hand{
     width: 12px;
     height: 130px;
